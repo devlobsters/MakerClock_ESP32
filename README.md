@@ -1,4 +1,4 @@
-![](Pictur/Logo_Devlobster_long_Compressed.png)
+![](Picturs/Logo_Devlobster_long_Compressed.png)
 
 # MakerClock_ESP32
 Is a standalone Branch of the **[FHNW Maker Clock - Arduino Software](https://github.com/FHNW-MakerStudio/MakerClockSoftware)**.
