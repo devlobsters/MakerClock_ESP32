@@ -75,7 +75,7 @@ For more Information please visit [platformio.org](https://platformio.org)
 #### PatformIO:
 1. On the home screen click `Open Project`
 
-![PatformIO_home](images/PlatformIO_home)
+![PlatformIO_home](images/PlatformIO_home.png)
 
 2. Navigate to the folder where you have cloned or downloaded and unpacked this project and select the folder `Example_MackerClock_Nano`.
 3. In the IDEs explorer open `main.cpp` under the `src` folder.
