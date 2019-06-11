@@ -1,7 +1,7 @@
 /***********************************************************************/
 // File: board.h
 // Typ: Header File
-// Author: Yannick Ducret
+// Author: YD95
 // Created: 06/11/2019 (MM/DD/YYYY)
 // Changed: 06/11/2019 (MM/DD/YYYY)
 // Version: v1.00
@@ -14,11 +14,7 @@
 // 					Nano (BL: UNO)
 //
 // ----------------------------------------------------------------------
-// dependancies:	Wire.h
-//					RTClib.h
-//					Encoder.h
-//					OneButton.h
-//					Adafruit_NeoPixel.h
+// dependancies:	lib.h
 // ----------------------------------------------------------------------
 // legend:
 // 		a)	added

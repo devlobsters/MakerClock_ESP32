@@ -1,7 +1,7 @@
 /***********************************************************************/
 // File: clock.cpp
 // Typ: c++ File
-// Author: Yannick Ducret
+// Author: YD95
 // Created: 06/11/2019 (MM/DD/YYYY)
 // Changed: 06/11/2019 (MM/DD/YYYY)
 // Version: v1.00
@@ -9,7 +9,8 @@
 // description:
 //      Sets up the clock rutines, colors and functions declarations
 // ----------------------------------------------------------------------
-// dependancies:	
+// dependancies:	board.h
+//					clock.h
 // ----------------------------------------------------------------------
 // legend:
 // 		a)	added
@@ -33,12 +34,8 @@
 // Animation zur vollen Stunde
 // wie eine Kuckucksuhr
 void volleStundeAnimation(int stunde){
-  // SELBER MACHEN    ;)
-  // zum Beispiel auch: Farbwechsel der Zeiger in den Morgenstunden...
-  // folgende Farbvariablen stehen zum Ändern zur Auswahl
-  // farbeZeigerStunde  = 
-  // farbeZeigerMinute  = 
-  // farbeZeigerSekunde = 
+
+
 
 }
 

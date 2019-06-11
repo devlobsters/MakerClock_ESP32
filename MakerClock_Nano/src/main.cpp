@@ -1,37 +1,51 @@
+/***********************************************************************
+Devlobsters - MakerClock ESP32
+
+Arduino Nano version
+
+File: main.cpp
+Typ: c++ File
+Author: YD95
+Created: 06/11/2019 (MM/DD/YYYY)
+Changed: 06/11/2019 (MM/DD/YYYY)
+Version: v1.00
+----------------------------------------------------------------------
+description:
+	 This file lets the Arduino Nano drive 60 NeoPixel from Adafruit
+	 that make up a clock. It also has a DS1307 Real Time Clock attached
+	 and can comunicate with the ESP32 over SPI to extend the clocks capability.
+
+	 For further information about this project, pleas visit:
+	 https://github.com/devlobsters/MakerClock_ESP32
+----------------------------------------------------------------------
+dependancies:	lib.h
+				board.h
+				clock.cpp		// don't ask me why, it didn't work differently
+----------------------------------------------------------------------
+legend:
+		a)	added
+		c)	commented
+		d)	deleted
+		m)	modified
+		ut)	untested
+
+Changelog:
+
+v1.00:
+a) created file
+06/11/2019 - YD
+
+***********************************************************************/
+
+// include dependencies
+#include "lib.h"		// all uesed libraries
+#include "board.h"		// board pinning, variables and extarnal settings
+#include "clock.cpp"	// clock settings, clock functions
+
+
 /**************************************************************************
-  FHNW Maker Studio - Maker Clock
-
-  file:   ArduinoMakerClock60.ino
-  author: Simon Burkhardt (github.com/mnemocron)
-  date:   2018.09.15
-
-  Mit dem Arduino Nano, 60 NeoPixel LEDs und der DS1307 Real Time Clock
-  Basirend auf den Library Beispielen zu RTClib.h / Encoder.h / OneButton.h 
-  und der alten MakerClock Software
-
-  Folgende Libraries müssen zusätzlich installiert sein:
-  - RTClib.h
-  - Encoder.h
-  - OneButton.h
-  - Adafruit_NeoPixel.h
-
-  Weitere Informationen zur MakerClock:
-  makerstudio.fhnw.ch
-  github.com/fhnw-makerstudio
-
- **************************************************************************
-*/
-
-
-// Bibliotheken einbinden
-#include "lib.h"
-
-// Additional Header files
-#include "board.h"    // board pinning, variables and extarnal settings
-#include "clock.cpp"  // clock settings, clock functions
-
-
-/**************************************************************************/
+Arduino setup routine
+**************************************************************************/
 void setup () {
   Serial.begin(9600);     // Serielle Kommunikation starten
   Wire.begin();           // I2C Kommunikation zur DS1307 Clock starten
@@ -64,8 +78,10 @@ void setup () {
   Serial.println("MakerClock");
 }
 
-/**************************************************************************/
-// Endlosschleife
+
+/**************************************************************************
+Arduino loop routine
+**************************************************************************/
 void loop () {
   int delta_t = 0;
   long encoderPositionNew;

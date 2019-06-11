@@ -1,7 +1,7 @@
 /***********************************************************************/
 // File: clock.h
 // Typ: Header File
-// Author: Yannick Ducret
+// Author: YD95
 // Created: 06/11/2019 (MM/DD/YYYY)
 // Changed: 06/11/2019 (MM/DD/YYYY)
 // Version: v1.00
@@ -9,7 +9,7 @@
 // description:
 // 		Sets up the clock rutines, colors and functions declarations
 // ----------------------------------------------------------------------
-// dependancies:	
+// dependancies:	lib.h
 // ----------------------------------------------------------------------
 // legend:
 // 		a)	added
@@ -35,6 +35,20 @@
 
 // Die Breite des Stundenzeigers (nur ungerade Zahlen)
 #define BREITE_ZEIGER_STUNDEN 5
+
+/**************************************************************************/
+// Area declaration
+#define CITY_SIZE 20
+int city[CITY_SIZE] = {37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18};
+
+#define INDI_SIZE 2
+int am[INDI_SIZE] = {40,39};
+int wifi[INDI_SIZE] = {39,38};
+int bt[INDI_SIZE] = {17,16};
+int pm[INDI_SIZE] = {16,15};
+
+#define DIGITS_SIZE 34
+int digits[DIGITS_SIZE] = {41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14};
 
 /**************************************************************************/
 // FARBEN DEFINIEREN

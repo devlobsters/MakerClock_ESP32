@@ -1,7 +1,7 @@
 /***********************************************************************/
 // File: lib.h
 // Typ: Header File
-// Author: Yannick Ducret
+// Author: YD95
 // Created: 06/11/2019 (MM/DD/YYYY)
 // Changed: 06/11/2019 (MM/DD/YYYY)
 // Version: v1.00
@@ -18,11 +18,12 @@
 #include <Arduino.h>
 
 // Installed by IDE
-#include <Wire.h>         // für die Kommunikation mit dem DS1307 Chip
-#include <RTClib.h>       // für die Ansteuerung des DS1307 Chips
-#include <Encoder.h>      // für den Encoder Knopf
+#include <Wire.h>				// for comunication with DS1307 Chip
+#include <RTClib.h>				// for using DS1307 Chip
+#include <Encoder.h>			// for the encoder button
 #include <OneButton.h>
-#include <Adafruit_NeoPixel.h>  // für die LEDs
+#include <Adafruit_NeoPixel.h>  // for the NeoPixel LEDs
+#include <SPI.h>				// Serial Periphal Interface
 
 // Costom
 
