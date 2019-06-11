@@ -51,10 +51,11 @@ For more Information please visit [platformio.org](https://platformio.org)
 2. Choose your prefferd Editor: [Atom](https://platformio.org/install/ide?install=atom) or [VSCode](https://platformio.org/install/ide?install=vscode)
 3. Go throw the install steps of the Editor of your choice and install PlatformIO
 4. After PltformIO has been successfully installed on your Editor, go to Libraries tab of it and search and install all [dependencies](#dependencies):
-	1. **Atom**: navigate to `home` button top on the left panel > `Libraries` in the opened tab
-	2. **VSCode**: navigate to `PlatformIO symbol` on the left panel > in quick access just beside left panel `Libraries`
+	1. **VSCode**: navigate to `PlatformIO symbol` on the left panel > in quick access just beside left panel `Libraries`
+	2. **Atom**: navigate to `home` button top on the left panel > `Libraries` in the opened tab
 
 ![VSCode_Atom](images/VSCode_Atom_Lib.png)
+
 5. You are all set for **[testing the IDE](#test-your-ide-installation)**
 
 ### Test your IDE Installation
@@ -63,27 +64,32 @@ For more Information please visit [platformio.org](https://platformio.org)
 2. Set your target board (either Nano or Uno) and processor
 
 ![arduino_settings](images/arduino_settings.png)
+
 3. Click the verify button top left 
 
 ![Button Verify](images/arduino_verify.png)
+
 4. The terminal at the bottom should indicate that it compiled the code successfully after a few seconds.
 5. You are ready to get started!
+
 #### PatformIO:
 1. On the home screen click `Open Project`
 
-![PatformIO_home](images/PatformIO_home)
-2. Navigate to the folder where you have cloned or downloaded and unpacked this project and select the folder `MakerClock_Nano`.
+![PatformIO_home](images/PlatformIO_home)
+
+2. Navigate to the folder where you have cloned or downloaded and unpacked this project and select the folder `Example_MackerClock_Nano`.
 3. In the IDEs explorer open `main.cpp` under the `src` folder.
 4. Build the project:
 
 VSCode | Atom
 ------ | -------
 [VSCode build](images/VSCode_build.png) | [Atom build](images/Atom_build.png)
+
 5. The terminal at the bottom should indicate that it compiled the code successfully after a few seconds.
 6. You are ready to get started!
 
 ## Connecting to your Board
-For the Arduino please refer to the section [Programming](https://github.com/FHNW-MakerStudio/MakerClockSoftware#3-programmierung) of MakerStudio/MakerClockSoftware.
+For the Arduino IDE please refer to the section [Programming](https://github.com/FHNW-MakerStudio/MakerClockSoftware#3-programmierung) of MakerStudio/MakerClockSoftware.
 
 PlatformIO automatically detects your board and sets the correct COM Ports when you press upload.
 
