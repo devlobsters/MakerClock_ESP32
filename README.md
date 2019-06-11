@@ -29,7 +29,9 @@ The main difference is that it uses 2 Boards to drive the Clock and give it more
 - [Acknowledgments](#acknowledgments)
 
 ## Installation:
-### 1.1 Arduino IDE![Arduino](images/ArduinoCommunityLogo.png)
+### 1.1 Arduino IDE
+![Arduino](images/ArduinoCommunityLogo.png)
+
 Please refer to Installation in [FHNW Maker Clock - Arduino Software](https://github.com/FHNW-MakerStudio/MakerClockSoftware#installation) for the regular Arduino IDE.
 > The instructions are in German but have complementary images to it.
 > If you feel that you need to read the instructions, you can simply translate it.
@@ -38,7 +40,9 @@ Please refer to Installation in [FHNW Maker Clock - Arduino Software](https://gi
 
 After installation you must install Adafruit Espressif ESP32 board described here: [Adafruit HUZZAH32 - ESP32 Feather Guide](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide)
 After all that you are set for **[testing the IDE](#test-your-ide-installation)**
-### 1.2 PlatformIO![PlatformIO](images/PlatformIO.png)
+### 1.2 PlatformIO
+![PlatformIO](images/PlatformIO.png)
+
 PlatformIO is an open source ecosystem for IoT development and a free Arduino IDE alternative. It supports +600 embedded boards and is Cross-platform IDE.
 For more Information please visit [platformio.org](https://platformio.org)
 
@@ -85,11 +89,11 @@ PlatformIO automatically detects your board and sets the correct COM Ports when 
 
 **Note there are different types of build, clean and upload!**
 
-VSCode:
+**VSCode:**
 
 ![VSCode_Multi](images/VSCode_Multi.png)
 
-Atom:
+**Atom:**
 
 ![Atom_Target_options](images/Atom_Target_options.png)
 ![Atom_Target_build](images/Atom_Target_build.png)
@@ -106,10 +110,10 @@ Wrong Arduino selected | Depending on which Bootloader your board is running on,
 USB problem on Mac OS X | sometimes a USB hub between the Mac and Arduino can help
 
 ## Authors
-* **YD95** - _Initial Branch creator_ - [Devlobsters](https://github.com/devlobsters)
+* **[YD95](https://github.com/YD95)** - _Initial Branch creator_ - [Devlobsters](https://github.com/devlobsters)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 * Thanks to Simon Burkhardt ([mnemocron](https://github.com/mnemocron)) from [FHNW MakerStudio](https://github.com/fhnw-makerstudio) for letting me reffer to their Github site
